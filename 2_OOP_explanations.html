@@ -1,0 +1,18 @@
+1.	Class:
+  o	คำว่า "class" หมายถึงการกำหนด blueprint หรือ template ที่บอกว่า object ที่สร้างขึ้นควรมี attributes และ methods อย่างไร
+  o	ตัวอย่างจากโค้ด: class Animal กำหนดคุณสมบัติและพฤติกรรมพื้นฐาน เช่น การสร้าง (__init__) และการทำลาย (__del__)
+2.	Object, Instance:
+  o	Object หรือ instance คือสิ่งที่สร้างขึ้นจาก class
+  o	ตัวอย่าง: ในโค้ด Python, a = Animal() คือ object ที่สร้างจาก class Animal
+3.	Subclass, Derived Class:
+  o	Subclass หรือ derived class คือ class ที่สืบทอดคุณสมบัติจาก class อื่น (เรียกว่า superclass หรือ base class)
+  o	ตัวอย่าง: class Dog(Animal) ใน Python, Dog เป็น subclass ที่สืบทอดคุณสมบัติจาก Animal
+4.	Message:
+  o	ใน OOP, message หมายถึงการสื่อสารกับ object โดยการเรียก method หรือ function
+  o	ตัวอย่าง: d.sound() เป็นการส่ง message ไปยัง object d เพื่อเรียกใช้ method sound
+5.	Inheritance:
+  o	Inheritance คือการสืบทอดคุณสมบัติจาก class หนึ่งไปยังอีก class หนึ่ง โดย subclass จะได้คุณสมบัติของ superclass มาด้วย
+  o	ตัวอย่าง: Dog และ Cat สืบทอด constructor และ method sound จาก Animal
+6.	Polymorphism:
+  o	Polymorphism คือความสามารถในการใช้ method ชื่อเดียวกันใน object ที่ต่างกัน
+  o	ตัวอย่าง: Method sound() ถูก override ใน class Dog และ Cat ดังนั้นเมื่อเรียก sound() จะได้ผลลัพธ์ต่างกัน
